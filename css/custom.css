@@ -1,0 +1,26 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+p, .form-control, .btn {
+    font-size: .8rem;
+}
+/* SECTION 1 */
+#section-1 .top{
+    background-image: url('../img/Pattern.png');
+    background-color: #0a58ca;
+    color: #fff;
+    height: 200px;
+}
+/* SECTION 3 */
+#section-3 span{
+    font-weight: bold;
+}
+@media (min-width: 576px) {
+    body {
+        background-image: url('../img/Background.png');
+    }
+    main {
+        margin: 50px 0;
+    }
+}
